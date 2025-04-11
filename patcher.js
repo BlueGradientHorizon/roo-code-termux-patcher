@@ -1,7 +1,9 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 const AdmZip = require('adm-zip');
-const rimrafSync = require('rimraf');
+const { rimrafSync } = require('rimraf');
 const acorn = require('acorn');
 const acornWalk = require('acorn-walk');
 
